@@ -1,6 +1,6 @@
 import React from 'react';
 import { Trophy, Medal, Home, Lightbulb, ChevronRight } from 'lucide-react';
-import sofaLiving from '../assets/sofa.png'; // Need a good image here, using sofa placeholder for now but will swap to a better one if available
+import sofaLiving from '../assets/sofa.webp'; // Need a good image here, using sofa placeholder for now but will swap to a better one if available
 
 const features = [
     {
@@ -47,10 +47,11 @@ const WhyChooseUs = () => {
 
                         <div className="relative rounded-3xl overflow-hidden shadow-2xl">
                             <img
-                                src="/sofa/sofa-living.jpg"
+                                src="/sofa/sofa-living.webp"
                                 alt="Sala de Estar Confortável"
                                 className="w-full h-[500px] object-cover hover:scale-105 transition-transform duration-700"
                                 loading="lazy"
+                                decoding="async"
                             />
                         </div>
                     </div>

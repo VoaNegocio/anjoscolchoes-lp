@@ -1,5 +1,5 @@
 import React from 'react';
-import heroBg from '../assets/hero_background.png'; // Generated image
+import heroBg from '../assets/hero_background.webp'; // Generated image
 
 const Hero = () => {
     return (

@@ -1,13 +1,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import sofaImg from '../assets/sofa.png';
+import sofaImg from '../assets/sofa.webp';
 import { ChevronRight } from 'lucide-react';
 
 const sofaCategories = [
     {
         title: 'Sofás Retráteis e Reclináveis',
         subtitle: 'Conforto absoluto para seu home theater',
-        image: '/sofa/sofa-cama.jpg',
+        image: '/sofa/sofa-cama.webp',
         items: ['Molas Ensacadas', 'Tecido Suede', 'Abertura 1.80m'],
         description: 'Perfeito para maratonar séries e relaxar com a família. Tecnologia de conforto e durabilidade.',
         link: '#'
@@ -15,7 +15,7 @@ const sofaCategories = [
     {
         title: 'Sofás de Living',
         subtitle: 'Elegância para receber bem',
-        image: '/sofa/sofa-living.jpg',
+        image: '/sofa/sofa-living.webp',
         items: ['Design Moderno', 'Acabamento Premium', 'Várias Cores'],
         description: 'Sofisticação e design que transformam sua sala de estar em um ambiente convidador.',
         link: '#'
@@ -23,7 +23,7 @@ const sofaCategories = [
     {
         title: 'Poltronas',
         subtitle: 'O complemento perfeito',
-        image: '/sofa/sofacama2.jpg',
+        image: '/sofa/sofacama2.webp',
         items: ['Giratória', 'Opções de Couro', 'Design Clássico'],
         description: 'Toque de charme e conforto individual para leitura ou descanso.',
         link: '#'

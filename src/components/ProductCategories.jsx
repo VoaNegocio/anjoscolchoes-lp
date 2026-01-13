@@ -1,14 +1,14 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import mattressImg from '../assets/mattress.png';
-import sofaImg from '../assets/sofa.png';
+import mattressImg from '../assets/mattress.webp';
+import sofaImg from '../assets/sofa.webp';
 import { ChevronRight } from 'lucide-react';
 
 const categories = [
     {
         title: 'Colchões Infantis',
         subtitle: 'Tecnologia para crianças',
-        image: '/colchao/colchaoinfantil.jpg',
+        image: '/colchao/colchaoinfantil.webp',
         items: ['Infantis', 'Casal', 'Queen & King', 'Ortopédicos'],
         description: 'Para o crescimento saudável dos pequenos',
         link: '#'
@@ -16,7 +16,7 @@ const categories = [
     {
         title: 'Colchões para Jovens e Adultos Ativos',
         subtitle: 'Conforto para adultos',
-        image: '/colchao/camaadultofuncional.jpg',
+        image: '/colchao/camaadultofuncional.webp',
         items: ['Retráteis', 'Reclináveis', 'Sofá-Cama', 'Living'],
         description: 'Tecnologia para recuperação e conforto',
         link: '#'
@@ -24,7 +24,7 @@ const categories = [
     {
         title: 'Colchões de Casal',
         subtitle: 'Conforto para casais',
-        image: '/colchao/colchao1.jpg',
+        image: '/colchao/colchao1.webp',
         items: ['Retráteis', 'Reclináveis', 'Sofá-Cama', 'Living'],
         description: 'Para o sono e a recuperação',
         link: '#'
@@ -32,7 +32,7 @@ const categories = [
     {
         title: 'Colchões Ortopédicos e Geriátricos',
         subtitle: 'Conforto para pessoas com necessidades específicas',
-        image: '/colchao/colchao2.jpg',
+        image: '/colchao/colchao2.webp',
         items: ['Retráteis', 'Reclináveis', 'Sofá-Cama', 'Living'],
         description: 'Suporte extra para necessidades específicas..',
         link: '#'
@@ -41,7 +41,7 @@ const categories = [
     {
         title: 'Linha Hoteleira',
         subtitle: 'Conforto para hoteis e estabelecimentos',
-        image: '/colchaocasal2.png',
+        image: '/colchaocasal2.webp',
         items: ['Retráteis', 'Reclináveis', 'Sofá-Cama', 'Living'],
         description: 'Durabilidade e conforto para estabelecimentos.',
         link: '#'
