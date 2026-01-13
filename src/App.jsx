@@ -1,22 +1,34 @@
-import React from 'react';
+import React, { Suspense, lazy } from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import ProductCategories from './components/ProductCategories';
-import SofaSection from './components/SofaSection';
-import Benefits from './components/Benefits';
-import Testimonials from './components/Testimonials';
-import Footer from './components/Footer';
+
+// Lazy load below-the-fold components for Mobile First performance
+const ProductCategories = lazy(() => import('./components/ProductCategories'));
+const SofaSection = lazy(() => import('./components/SofaSection'));
+const Benefits = lazy(() => import('./components/Benefits'));
+const Testimonials = lazy(() => import('./components/Testimonials'));
+const Footer = lazy(() => import('./components/Footer'));
+
+// Loading fallback component
+const LoadingSpinner = () => (
+  <div className="flex items-center justify-center py-20">
+    <div className="w-12 h-12 border-4 border-brand-green border-t-transparent rounded-full animate-spin"></div>
+  </div>
+);
 
 function App() {
   return (
     <div className="font-sans antialiased text-brand-gray bg-white selection:bg-brand-green selection:text-white overflow-x-hidden">
       <Header />
       <Hero />
-      <ProductCategories />
-      <SofaSection />
-      <Benefits />
-      <Testimonials />
-      <Footer />
+
+      <Suspense fallback={<LoadingSpinner />}>
+        <ProductCategories />
+        <SofaSection />
+        <Benefits />
+        <Testimonials />
+        <Footer />
+      </Suspense>
 
       {/* WhatsApp Floating Button */}
       <a

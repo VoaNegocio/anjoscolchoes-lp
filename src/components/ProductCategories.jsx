@@ -8,7 +8,7 @@ const categories = [
     {
         title: 'Colchões Infantis',
         subtitle: 'Tecnologia para crianças',
-        image: '/colchaoinfantil.png',
+        image: '/colchao/colchaoinfantil.jpg',
         items: ['Infantis', 'Casal', 'Queen & King', 'Ortopédicos'],
         description: 'Para o crescimento saudável dos pequenos',
         link: '#'
@@ -16,7 +16,7 @@ const categories = [
     {
         title: 'Colchões para Jovens e Adultos Ativos',
         subtitle: 'Conforto para adultos',
-        image: '/colchaoadultoativo.png',
+        image: '/colchao/camaadultofuncional.jpg',
         items: ['Retráteis', 'Reclináveis', 'Sofá-Cama', 'Living'],
         description: 'Tecnologia para recuperação e conforto',
         link: '#'
@@ -24,7 +24,7 @@ const categories = [
     {
         title: 'Colchões de Casal',
         subtitle: 'Conforto para casais',
-        image: '/colchaocasal.png',
+        image: '/colchao/colchao1.jpg',
         items: ['Retráteis', 'Reclináveis', 'Sofá-Cama', 'Living'],
         description: 'Para o sono e a recuperação',
         link: '#'
@@ -32,7 +32,7 @@ const categories = [
     {
         title: 'Colchões Ortopédicos e Geriátricos',
         subtitle: 'Conforto para pessoas com necessidades específicas',
-        image: '/colchaoortopedico.png',
+        image: '/colchao/colchao2.jpg',
         items: ['Retráteis', 'Reclináveis', 'Sofá-Cama', 'Living'],
         description: 'Suporte extra para necessidades específicas..',
         link: '#'
@@ -119,9 +119,14 @@ const ProductCategories = () => {
                                         ))}
                                     </div>
 
-                                    <button className="bg-brand-green hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full shadow-lg transform hover:scale-105 transition-all w-full max-w-xs">
+                                    <a
+                                        href={`https://wa.me/5547996974131?text=Olá, tenho interesse em ${cat.title}. Gostaria de ver o catálogo.`}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="bg-brand-green hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full shadow-lg transform hover:scale-105 transition-all w-full max-w-xs inline-block"
+                                    >
                                         VER CATÁLOGO COMPLETO
-                                    </button>
+                                    </a>
                                 </div>
                             </div>
                         </motion.div>

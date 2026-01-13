@@ -18,8 +18,13 @@ const Header = () => {
         >
             <div className="container mx-auto px-4 flex justify-between items-center">
                 {/* Helper for text color depending on background */}
-                <a href="/" className={`text-2xl font-heading font-bold ${isScrolled ? 'text-brand-dark' : 'text-white'}`}>
-                    ANJOS COLCHÕES
+                {/* Logo Image */}
+                <a href="/" className="block">
+                    <img
+                        src="/logo/logo.webp"
+                        alt="Anjos Colchões"
+                        className="h-16 w-auto object-contain"
+                    />
                 </a>
 
                 <a

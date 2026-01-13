@@ -10,6 +10,9 @@ const Hero = () => {
                     src={heroBg}
                     alt="Anjos Colchões Bedroom"
                     className="w-full h-full object-cover"
+                    fetchPriority="high"
+                    loading="eager"
+                    decoding="async"
                 />
                 {/* Gradient Overlay - Deep Blue to transparent */}
                 <div className="absolute inset-0 bg-hero-gradient"></div>

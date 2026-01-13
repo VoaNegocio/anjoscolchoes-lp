@@ -7,7 +7,7 @@ const sofaCategories = [
     {
         title: 'Sofás Retráteis e Reclináveis',
         subtitle: 'Conforto absoluto para seu home theater',
-        image: '/sofa/sofaretratil.png',
+        image: '/sofa/sofa-cama.jpg',
         items: ['Molas Ensacadas', 'Tecido Suede', 'Abertura 1.80m'],
         description: 'Perfeito para maratonar séries e relaxar com a família. Tecnologia de conforto e durabilidade.',
         link: '#'
@@ -15,7 +15,7 @@ const sofaCategories = [
     {
         title: 'Sofás de Living',
         subtitle: 'Elegância para receber bem',
-        image: '/sofa/sofadeliving.png',
+        image: '/sofa/sofa-living.jpg',
         items: ['Design Moderno', 'Acabamento Premium', 'Várias Cores'],
         description: 'Sofisticação e design que transformam sua sala de estar em um ambiente convidador.',
         link: '#'
@@ -23,7 +23,7 @@ const sofaCategories = [
     {
         title: 'Poltronas',
         subtitle: 'O complemento perfeito',
-        image: '/sofa/poltrona.png',
+        image: '/sofa/sofacama2.jpg',
         items: ['Giratória', 'Opções de Couro', 'Design Clássico'],
         description: 'Toque de charme e conforto individual para leitura ou descanso.',
         link: '#'
@@ -101,9 +101,14 @@ const SofaSection = () => {
                                         ))}
                                     </ul>
 
-                                    <button className="bg-brand-green hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full shadow-lg transform hover:scale-105 transition-all w-full text-sm">
+                                    <a
+                                        href={`https://wa.me/5547996974131?text=Olá, tenho interesse em ${cat.title}. Gostaria de ver o catálogo.`}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="bg-brand-green hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full shadow-lg transform hover:scale-105 transition-all w-full text-sm inline-block"
+                                    >
                                         SOLICITAR CATÁLOGO
-                                    </button>
+                                    </a>
                                 </div>
                             </div>
                         </motion.div>
