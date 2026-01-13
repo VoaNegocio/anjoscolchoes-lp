@@ -7,6 +7,7 @@ const ProductCategories = lazy(() => import('./components/ProductCategories'));
 const SofaSection = lazy(() => import('./components/SofaSection'));
 const Benefits = lazy(() => import('./components/Benefits'));
 const Testimonials = lazy(() => import('./components/Testimonials'));
+const WhyChooseUs = lazy(() => import('./components/WhyChooseUs'));
 const Footer = lazy(() => import('./components/Footer'));
 
 // Loading fallback component
@@ -27,6 +28,7 @@ function App() {
         <SofaSection />
         <Benefits />
         <Testimonials />
+        <WhyChooseUs />
         <Footer />
       </Suspense>
 
