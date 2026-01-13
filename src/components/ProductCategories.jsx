@@ -87,6 +87,8 @@ const ProductCategories = () => {
                                         src={cat.image}
                                         alt={cat.title}
                                         className="w-full h-full object-cover"
+                                        loading="lazy"
+                                        decoding="async"
                                     />
                                     {/* Overlay */}
                                     <div className="absolute inset-0 bg-gradient-to-t from-brand-dark/90 via-transparent to-transparent"></div>
