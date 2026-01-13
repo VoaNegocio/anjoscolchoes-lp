@@ -125,7 +125,7 @@ const ProductCategories = () => {
                                         rel="noopener noreferrer"
                                         className="bg-brand-green hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full shadow-lg transform hover:scale-105 transition-all w-full max-w-xs inline-block"
                                     >
-                                        VER CATÁLOGO COMPLETO
+                                        Chamar no WhatsApp
                                     </a>
                                 </div>
                             </div>

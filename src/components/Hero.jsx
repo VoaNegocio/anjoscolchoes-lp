@@ -32,17 +32,14 @@ const Hero = () => {
                     </p>
                     <div className="pt-4 flex flex-col sm:flex-row gap-4">
                         <a
-                            href="#"
+                            href="https://wa.me/5547996974131?text=Olá, gostaria de solicitar um orçamento."
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="bg-brand-green hover:bg-green-600 text-white font-heading font-bold py-4 px-8 rounded-full text-center transition-all transform hover:-translate-y-1 shadow-lg shadow-green-900/20"
                         >
                             SOLICITAR ORÇAMENTO
                         </a>
-                        <a
-                            href="#"
-                            className="border-2 border-white hover:bg-white hover:text-brand-dark text-white font-heading font-bold py-4 px-8 rounded-full text-center transition-all"
-                        >
-                            VER COLEÇÃO
-                        </a>
+
                     </div>
                 </div>
             </div>

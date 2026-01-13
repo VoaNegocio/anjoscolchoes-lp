@@ -107,7 +107,7 @@ const SofaSection = () => {
                                         rel="noopener noreferrer"
                                         className="bg-brand-green hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full shadow-lg transform hover:scale-105 transition-all w-full text-sm inline-block"
                                     >
-                                        SOLICITAR CATÁLOGO
+                                        Chamar no WhatsApp
                                     </a>
                                 </div>
                             </div>
