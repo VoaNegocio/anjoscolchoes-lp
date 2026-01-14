@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className="grid md:grid-cols-3 gap-12 mb-16">
                     {/* Column 1: Brand */}
                     <div>
-                        <img src="/logo/logo.webp" alt="Anjos Colchões" className="h-16 mb-6 object-contain bg-white/10 p-2 rounded-lg" />
+                        <img src="/logo/logo.webp" alt="Anjos Colchões" className="h-16 mb-6 object-contain bg-white/10 p-2 rounded-lg" width="200" height="64" />
                         <p className="text-gray-400 mb-6 font-sans">
                             Especialistas em proporcionar o melhor sono e conforto para sua vida.
                             Tecnologia, design e saúde em um só lugar.
