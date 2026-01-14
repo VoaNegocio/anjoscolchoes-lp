@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="icon" type="image/webp" href="/logo/logo.webp" />
 
   <!-- Optimised Font Loading -->
   <link rel="preload" as="image" href="/hero_background.webp" type="image/webp" />
@@ -12,14 +12,16 @@
   <!-- Google Tag Manager -->
   <script>
     window.addEventListener('load', function () {
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || []; w[l].push({
-          'gtm.start':
-            new Date().getTime(), event: 'gtm.js'
-        }); var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-      })(window, document, 'script', 'dataLayer', 'GTM-53BXVZM7');
+      setTimeout(function () {
+        (function (w, d, s, l, i) {
+          w[l] = w[l] || []; w[l].push({
+            'gtm.start':
+              new Date().getTime(), event: 'gtm.js'
+          }); var f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+              'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-53BXVZM7');
+      }, 100); // Small delay to ensure main thread is free
     });
   </script>
   <!-- End Google Tag Manager -->
@@ -27,7 +29,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
     href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;600;700;800&display=swap"
-    rel="stylesheet" />
+    rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;600;700;800&display=swap"
+      rel="stylesheet" />
+  </noscript>
 
   <!-- Primary Meta Tags -->
   <title>Anjos Colchões & Sofás | Balneário Camboriú</title>
