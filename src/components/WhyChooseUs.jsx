@@ -82,7 +82,7 @@ const WhyChooseUs = () => {
                                 className="bg-brand-green hover:bg-green-600 text-white font-bold py-4 px-8 rounded-full shadow-lg transform hover:scale-105 transition-all inline-flex items-center gap-2 uppercase tracking-wide text-sm"
                             >
                                 <span className="mr-2">Inicie seu Atendimento via WhatsApp</span>
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" className="w-6 h-6 filter brightness-0 invert" />
+                                <img src="/whatsapp.svg" alt="WhatsApp" className="w-6 h-6 filter brightness-0 invert" />
                             </a>
                         </div>
                     </div>
