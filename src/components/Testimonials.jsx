@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Star, ChevronLeft, ChevronRight } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
-import testimonialsBg from '../assets/hero_background.webp';
+
 
 const reviews = [
     {
@@ -54,7 +54,7 @@ const Testimonials = () => {
             {/* Background Image with Blur */}
             <div className="absolute inset-0 z-0">
                 <img
-                    src={testimonialsBg}
+                    src="/hero_background.webp"
                     alt="Background"
                     className="w-full h-full object-cover"
                     loading="lazy"

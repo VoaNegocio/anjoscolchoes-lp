@@ -1,5 +1,5 @@
 import React from 'react';
-import heroBg from '../assets/hero_background.webp'; // Generated image
+
 
 const Hero = () => {
     return (
@@ -7,7 +7,7 @@ const Hero = () => {
             {/* Background Image */}
             <div className="absolute inset-0 z-0">
                 <img
-                    src={heroBg}
+                    src="/hero_background.webp"
                     alt="Anjos Colchões Bedroom"
                     className="w-full h-full object-cover"
                     fetchPriority="high"
