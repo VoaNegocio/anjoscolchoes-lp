@@ -14,10 +14,10 @@ const Footer = () => {
                             Tecnologia, design e saúde em um só lugar.
                         </p>
                         <div className="flex space-x-4">
-                            <a href="#" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-brand-green transition-colors">
+                            <a href="#" aria-label="Instagram" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-brand-green transition-colors">
                                 <Instagram size={20} />
                             </a>
-                            <a href="#" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-brand-green transition-colors">
+                            <a href="#" aria-label="Facebook" className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-brand-green transition-colors">
                                 <Facebook size={20} />
                             </a>
                         </div>
@@ -52,6 +52,7 @@ const Footer = () => {
                         <div className="w-full h-48 bg-gray-700 rounded-lg overflow-hidden relative">
                             {/* Embed Placeholder */}
                             <iframe
+                                title="Mapa da localização da loja Anjos Colchões"
                                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7110.109992784201!2d-48.633856!3d-26.99681!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94d8b60eacc5e173%3A0x696df3c72f67e95!2sAnjos%20Colch%C3%B5es%20e%20Sof%C3%A1s%20-%20Balne%C3%A1rio.!5e0!3m2!1spt-BR!2sus!4v1768327981995!5m2!1spt-BR!2sus"
                                 width="100%"
                                 height="100%"

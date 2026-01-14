@@ -93,7 +93,7 @@ const Testimonials = () => {
                                                 {review.name[0]}
                                             </div>
                                             <div>
-                                                <h4 className="font-bold text-lg text-brand-dark">{review.name}</h4>
+                                                <h3 className="font-bold text-lg text-brand-dark">{review.name}</h3>
                                                 <div className="flex text-yellow-400 text-sm">
                                                     {[...Array(5)].map((_, i) => <Star key={i} fill="currentColor" size={14} />)}
                                                 </div>
@@ -112,24 +112,27 @@ const Testimonials = () => {
                     {/* Navigation Buttons */}
                     <button
                         onClick={prevSlide}
+                        aria-label="Depoimento anterior"
                         className="absolute top-1/2 left-0 -translate-y-1/2 -ml-8 md:-ml-12 bg-white p-3 rounded-full shadow-lg text-brand-dark hover:text-brand-green hover:scale-110 transition-all z-10 hidden md:block"
                     >
                         <ChevronLeft size={24} />
                     </button>
                     <button
                         onClick={nextSlide}
+                        aria-label="Próximo depoimento"
                         className="absolute top-1/2 right-0 -translate-y-1/2 -mr-8 md:-mr-12 bg-white p-3 rounded-full shadow-lg text-brand-dark hover:text-brand-green hover:scale-110 transition-all z-10 hidden md:block"
                     >
                         <ChevronRight size={24} />
                     </button>
 
                     {/* Dots */}
-                    <div className="flex justify-center gap-2 mt-8">
+                    <div className="flex justify-center gap-4 mt-8">
                         {reviews.map((_, i) => (
                             <button
                                 key={i}
                                 onClick={() => setCurrentIndex(i)}
-                                className={`w-3 h-3 rounded-full transition-all ${i === currentIndex ? 'bg-brand-green w-6' : 'bg-gray-300 hover:bg-gray-400'
+                                aria-label={`Ir para depoimento ${i + 1}`}
+                                className={`w-3 h-3 box-content p-2 rounded-full transition-all bg-clip-content ${i === currentIndex ? 'bg-brand-green w-6' : 'bg-gray-300 hover:bg-gray-400'
                                     }`}
                             />
                         ))}

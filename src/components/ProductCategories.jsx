@@ -125,6 +125,7 @@ const ProductCategories = () => {
                                         href={`https://wa.me/5547996974131?text=Olá, tenho interesse em ${cat.title}. Gostaria de ver o catálogo.`}
                                         target="_blank"
                                         rel="noopener noreferrer"
+                                        aria-label={`Chamar no WhatsApp sobre ${cat.title}`}
                                         className="bg-brand-green hover:bg-green-600 text-white font-bold py-3 px-8 rounded-full shadow-lg transform hover:scale-105 transition-all w-full max-w-xs inline-block"
                                     >
                                         Chamar no WhatsApp
