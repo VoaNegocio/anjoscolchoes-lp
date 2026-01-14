@@ -132,7 +132,7 @@ const Testimonials = () => {
                                 key={i}
                                 onClick={() => setCurrentIndex(i)}
                                 aria-label={`Ir para depoimento ${i + 1}`}
-                                className={`w-3 h-3 box-content p-2 rounded-full transition-all bg-clip-content ${i === currentIndex ? 'bg-brand-green w-6' : 'bg-gray-300 hover:bg-gray-400'
+                                className={`w-3 h-3 box-content p-2 rounded-full transition-all bg-clip-content ${i === currentIndex ? 'bg-brand-green scale-150' : 'bg-gray-300 hover:bg-gray-400'
                                     }`}
                             />
                         ))}
