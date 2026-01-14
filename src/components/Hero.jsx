@@ -8,6 +8,8 @@ const Hero = () => {
             <div className="absolute inset-0 z-0">
                 <img
                     src="/hero_background.webp"
+                    srcSet="/hero_background_mobile.webp 600w, /hero_background.webp 1920w"
+                    sizes="(max-width: 600px) 100vw, 100vw"
                     alt="Anjos Colchões Bedroom"
                     className="w-full h-full object-cover"
                     fetchPriority="high"
