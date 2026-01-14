@@ -24,8 +24,8 @@ const Header = () => {
                         src="/logo/logo.webp"
                         alt="Anjos Colchões"
                         className="h-16 w-auto object-contain"
-                        width="263"
-                        height="72"
+                        width="234"
+                        height="64"
                     />
                 </a>
 
