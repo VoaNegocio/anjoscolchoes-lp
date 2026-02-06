@@ -6,6 +6,30 @@ import { ChevronRight } from 'lucide-react';
 
 const categories = [
     {
+        title: 'Ofertas Relâmpago',
+        subtitle: 'Preços imperdíveis por tempo limitado',
+        image: '/promo1.png',
+        items: ['Descontos de até 40%', 'Pronta Entrega', 'Frete Grátis*'],
+        description: 'Aproveite nossas ofertas exclusivas com descontos imperdíveis.',
+        link: '#'
+    },
+    {
+        title: 'Feirão de Fábrica',
+        subtitle: 'Direto da fábrica para sua casa',
+        image: '/promo2.png',
+        items: ['Preço de Custo', 'Garantia Estendida', 'Brindes Exclusivos'],
+        description: 'Qualidade Anjos Colchões com preços direto da fábrica.',
+        link: '#'
+    },
+    {
+        title: 'Combos Especiais',
+        subtitle: 'Cama + Colchão com desconto',
+        image: '/colchao/camaadultofuncional.webp',
+        items: ['Box Baú', 'Cabeceiras', 'Travesseiros Grátis'],
+        description: 'Leve o conjunto completo e garanta o melhor sono.',
+        link: '#'
+    },
+    {
         title: 'Colchões Infantis',
         subtitle: 'Tecnologia para crianças',
         image: '/colchao/colchaoinfantil.webp',
